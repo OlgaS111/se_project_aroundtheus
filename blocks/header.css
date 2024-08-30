@@ -1,0 +1,9 @@
+.header {
+    margin-top: 45px;
+}
+
+.line {
+    border-bottom: 1px solid #545454; 
+    margin-top: 45px;
+    opacity: 70%;
+}

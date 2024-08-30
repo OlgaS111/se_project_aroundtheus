@@ -1,0 +1,53 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/header.css);
+@import url(../blocks/profile.css);
+@import url(../blocks/cards.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/page.css);
+
+@media screen and (max-width:620px) {
+    .logo__image {
+        margin-left: 27px;
+    }
+
+    .header {
+        margin-left: 27px;
+        margin-top: 28px;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile__info {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 26px;
+        justify-content: center;
+    }
+
+    .profile__title{
+        font-size: 22px;
+    }
+
+    .profile__description {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .profile__add-button {
+        margin: 0;
+        width: 100%;
+        max-width: 282px;
+        margin-top: 36px;
+    }
+
+    .cards__list {
+        margin: 0 20px;
+        max-width: calc(100% - 38px);
+    }
+}
