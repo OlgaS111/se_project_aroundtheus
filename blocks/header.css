@@ -7,3 +7,13 @@
     margin-top: 45px;
     opacity: 70%;
 }
+
+@media screen and (max-width:620px) {
+    .logo__image {
+        margin-left: 27px;
+        }        
+    .header {
+            margin-left: 27px;
+            margin-top: 28px;
+        }
+    }
