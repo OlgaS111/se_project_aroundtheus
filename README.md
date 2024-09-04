@@ -2,20 +2,37 @@
 
 ### Overview  
 
-* Intro  
-* Figma  
+* Intro 
+* Description 
 * Images  
+* Summary
   
 **Intro**
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
-  
+Around the U.S. is the third project in the Software Engeneering Program at TripleTen. It was created using HTLM and CSS  based on designer's brief through Figma. This project is made so all the elements are displayed correctly on popular screen sizes. The page is easy to interect with and easy to read on any screen size using @meadia rule.
+
+**Description**
+
+In this project I used both flexbox and grid container to make the page most responsive on any screen size. Use of max-width and width to make the site easy to navigate and make it a pleasant experience. 
+
+<img src="./images/Demo/Around the U.S..png" width="640">
+
+<img src="./images/Demo/Around the U.S. 320px.png" width="640">
+
+To make sure the footer stays at the right place regardless of the screen-size, I imlplemented "sticky" footer using margin/padding to achive that.
+
+<img src="./images/Demo/Footer:Cards.png" width="640">
+
+
+
 **Images**  
   
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+Images have been exported directry from Figma's design and optimized to be best responsive with the page. 
+
+
+**Summary**
+
+Check out the full Project at [Github](https://github.com/OlgaS111/se_project_aroundtheus.git)
+
+
+You can watch a quick video about the poject here: https://www.loom.com/share/11521b5a708149dcabbfc4bf198205bd 

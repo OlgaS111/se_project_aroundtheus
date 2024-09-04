@@ -1,16 +1,18 @@
 .header {
-    margin-top: 45px;
-}
-
-.line {
+    padding-bottom: 41px;
     border-bottom: 1px solid #545454; 
-    margin-top: 45px;
     opacity: 70%;
 }
 
+.header__image {
+    margin-top: 45px;
+}
+
 @media screen and (max-width:620px) {
-    .logo__image {
+    .header__image {
         margin-left: 27px;
+        max-width: 126px;
+        height: 24px;
         }        
     .header {
             margin-left: 27px;

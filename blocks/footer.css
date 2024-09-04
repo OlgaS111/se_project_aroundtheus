@@ -3,6 +3,7 @@
     width: 100%;
     position: relative;
     margin: 0 auto;
+    margin-top: -48px;
 }
 
 .footer__copyright {
@@ -13,4 +14,18 @@
     color: #545454;
     margin-top: 67px;
     margin-bottom: 60px;
+}
+
+@media screen and (max-width:620px) {
+    .footer {
+        max-width: 282px;
+        width: 100%;
+        margin-top: -48px;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+        margin-bottom: 36px;
+    }
+    
 }
