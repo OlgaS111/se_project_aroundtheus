@@ -11,6 +11,8 @@
     "description description";
     grid-template-columns: minmax(auto, 375px) auto;
     align-items: center;
+    padding: 21px 0;
+    margin-right: 10px;
 }
 
 .profile__edit-button {
@@ -20,6 +22,8 @@
     grid-area: button;
     border: #fff solid 1px;
     margin-left: 18px;
+    position: relative;
+    top: 3px;
 }
 
 .profile__edit-button:hover {
@@ -31,8 +35,8 @@
     background: transparent url(../images/plus.svg) center no-repeat;
     width: 150px;
     height: 50px;
+    align-self: center;
     margin-left: auto;
-    margin-top: 35px;
     border: #fff solid 2px;
     border-radius: 2px;
     max-width: 150px;
@@ -114,6 +118,7 @@
     .profile__edit-button {
         height: 18px;
         width: 18px;
+        align-self: baseline;
     }
 
     .profile__image {

@@ -32,7 +32,7 @@ Images have been exported directry from Figma's design and optimized to be best 
 
 **Summary**
 
-Check out the full Project at [Github](https://github.com/OlgaS111/se_project_aroundtheus.git)
+Check out the full Project at [Github](https://olgas111.github.io/se_project_aroundtheus/)
 
 
 You can watch a quick video about the poject here: https://www.loom.com/share/11521b5a708149dcabbfc4bf198205bd 
