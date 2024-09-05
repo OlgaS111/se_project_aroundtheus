@@ -3,7 +3,6 @@
     width: 100%;
     position: relative;
     margin: 0 auto;
-    margin-top: -48px;
 }
 
 .footer__copyright {
@@ -19,13 +18,12 @@
 @media screen and (max-width:620px) {
     .footer {
         max-width: 282px;
-        width: 100%;
-        margin-top: -48px;
     }
 
     .footer__copyright {
         font-size: 14px;
         margin-bottom: 36px;
+        margin-top: 0;
     }
     
 }

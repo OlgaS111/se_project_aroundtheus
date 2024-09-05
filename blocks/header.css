@@ -1,7 +1,7 @@
 .header {
     padding-bottom: 41px;
-    border-bottom: 1px solid #545454; 
-    opacity: 70%;
+    border-bottom: 1px solid rgba(84,84,84,0.7); 
+    opacity: 1;
 }
 
 .header__image {
@@ -17,5 +17,6 @@
     .header {
             margin-left: 27px;
             margin-top: 28px;
+            padding-bottom: 32px;
         }
     }
