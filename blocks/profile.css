@@ -92,8 +92,10 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        max-width: 292px;
         margin-top: 26px;
         justify-content: center;
+        padding: 0;
     }
 
     .profile__title{
