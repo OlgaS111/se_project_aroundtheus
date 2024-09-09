@@ -101,10 +101,12 @@
     .profile__title{
         font-size: 22px;
         line-height: 1.2;
+        max-width: 196px;
     }
 
     .profile__description {
         width: 100%;
+        max-width: 196px;
         text-align: center;
         font-size: 14px;
         margin-top: 14px;
