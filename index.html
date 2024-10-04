@@ -20,7 +20,7 @@
                 <img src="./images/jacques-cousteau.jpg" alt="Avatar" class="profile__image">
                 <div class="profile__info">
                     <h1 class="profile__title">Jacques Cousteau</h1>
-                    <button type="button" class="profile__edit-button" aria-label="Edit"></button>
+                    <button type="button" class="profile__edit-button" id="profile-edit-button" aria-label="Edit"></button>
                     <p class="profile__description">Explorer</p>
                 </div>
                 <button type="button" class="profile__add-button" aria-label="Add"></button>
@@ -77,9 +77,9 @@
         </footer>
     </div>
     <div>
-        <div class="modal">
+        <div class="modal" id="profile-edit-modal">
             <div class="modal__container">
-                <button class="modal__close"></button>
+                <button class="modal__close" id="profile-close-modal"></button>
                 <p class="modal__heading">Edit Profile</p>
                 <form class="modal__form">
                     <input class="modal__form-input"
