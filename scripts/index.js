@@ -70,8 +70,8 @@ profileDescriptionInput.value = profileDescription.textContent;
 profileCloseEditModal.addEventListener('click', closePopup);
 
 profileEditForm.addEventListener('submit', handleProfileEditSubmit);
-debugger
-initialCards.forEach(cardData)  => {
+
+initialCards.forEach((cardData)  => {
     const cardElement = getCardElement(cardData);
     cardListEl.prepend(cardElement);
-};
+});
