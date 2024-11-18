@@ -54,20 +54,41 @@
       <div class="modal__container">
         <button class="modal__close" id="profile-close-modal"></button>
         <p class="modal__heading">Edit Profile</p>
-        <form class="modal__form">
+        <form class="modal__form" id="profile-edit-form">
           <input
             class="modal__form-input"
             id="profile-title-input"
             type="text"
             name="title"
-            value="Jacques Cousteau"
           />
           <input
             class="modal__form-input"
             id="profile-description-input"
             type="text"
             name="description"
-            value="Explorer"
+          />
+          <button class="modal__button">Save</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal" id="add-card-modal">
+      <div class="modal__container">
+        <button class="modal__close" id="card-close-modal"></button>
+        <p class="modal__heading">New Place</p>
+        <form class="modal__form" id="add-card-form">
+          <input
+            class="modal__form-input modal__input_type_title"
+            id="card-title-input"
+            type="text"
+            name="title"
+            placeholder="Title"
+          />
+          <input
+            class="modal__form-input modal__input_type_url"
+            id="card-url-input"
+            type="url"
+            name="url"
+            placeholder="Image URL"
           />
           <button class="modal__button">Save</button>
         </form>
