@@ -90,13 +90,25 @@
             name="url"
             placeholder="Image URL"
           />
-          <button class="modal__button">Save</button>
+          <button class="modal__button">Create</button>
         </form>
+      </div>
+    </div>
+    <div class="modal" id="image-modal">
+      <div class="modal__container modal__container_image">
+        <button class="modal__close" id="image-close-modal"></button>
+        <img class="modal__image" src="" alt="" />
+        <p class="modal__title"></p>
       </div>
     </div>
     <template id="card-template">
       <li class="card">
         <img src="" class="card__image" alt="" />
+        <button
+          type="button"
+          class="delete__card-button"
+          aria-label="Delete"
+        ></button>
         <div class="card__description">
           <h2 class="card__text"></h2>
           <button
