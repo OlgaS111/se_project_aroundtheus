@@ -79,10 +79,7 @@ function getCardElement(cardData) {
     openPopup(imageModal);
     imageModalPicture.src = cardData.link;
     imageModalTitle.textContent = cardData.name;
-  });
-
-  openImageCloseButton.addEventListener("click", () => {
-    closePopup(imageModal);
+    imageModalTitle.alt = cardData.name;
   });
 
   cardTitleEl.textContent = cardData.name;
@@ -107,6 +104,10 @@ profileEditButton.addEventListener("click", () => {
 profileCloseEditModal.addEventListener("click", () =>
   closePopup(profileEditModal)
 );
+
+openImageCloseButton.addEventListener("click", () => {
+  closePopup(imageModal);
+});
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
 // add new card
 addNewCardButton.addEventListener("click", () => {
@@ -116,7 +117,7 @@ addNewCardButton.addEventListener("click", () => {
 addCardModalCloseButton.addEventListener("click", () =>
   closePopup(addCardModal)
 );
-function addCardSubmit(e) {
+function handleCardFormSubmit(e) {
   e.preventDefault();
   renderCard(
     { name: addCardTitleInput.value, link: addCardUrlInput.value },
@@ -130,7 +131,7 @@ const renderCard = (cardData, cardListEl) => {
   cardListEl.prepend(getCardElement(cardData));
 };
 
-addCardForm.addEventListener("submit", addCardSubmit);
+addCardForm.addEventListener("submit", handleCardFormSubmit);
 
 initialCards.forEach((cardData) => {
   renderCard(cardData, cardListEl);
