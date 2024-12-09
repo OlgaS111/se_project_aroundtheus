@@ -54,7 +54,7 @@
   cursor: pointer;
 }
 
-.delete__card-button {
+.card__button--delete {
   background: url("../images/Delete-button.svg") center no-repeat;
   border: none;
   height: 19px;
@@ -64,6 +64,6 @@
   top: 18px;
 }
 
-.delete__card-button:hover {
+.card__button--delete:hover {
   cursor: pointer;
 }

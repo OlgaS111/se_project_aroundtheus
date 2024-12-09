@@ -40,7 +40,9 @@ const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
 const cardTitle = document.querySelector(".card__text");
 const cardUrl = document.querySelector(".card__image");
-const addNewCardButton = document.querySelector(".profile__add-button");
+const addNewCardButton = document.querySelector(
+  ".profile__add-button--new-item"
+);
 const addCardModal = document.querySelector("#add-card-modal");
 const addCardModalCloseButton = addCardModal.querySelector("#card-close-modal");
 const addCardModalSaveButton = addCardModal.querySelector(".modal__button");
@@ -79,7 +81,7 @@ function getCardElement(cardData) {
     openPopup(imageModal);
     imageModalPicture.src = cardData.link;
     imageModalTitle.textContent = cardData.name;
-    imageModalTitle.alt = cardData.name;
+    imageModalPicture.alt = cardData.name;
   });
 
   cardTitleEl.textContent = cardData.name;

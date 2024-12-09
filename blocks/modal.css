@@ -87,7 +87,7 @@
   height: 50px;
 }
 
-.modal__container_image {
+.modal__container--image {
   padding: 0;
   background: none;
   max-width: 75vw;
@@ -99,7 +99,7 @@
   line-height: 14px;
 }
 
-.modal__container_image .modal__title {
+.modal__container--image .modal__title {
   margin-top: 10px;
   margin-bottom: 0;
 }
