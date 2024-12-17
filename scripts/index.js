@@ -40,9 +40,7 @@ const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
 const cardTitle = document.querySelector(".card__text");
 const cardUrl = document.querySelector(".card__image");
-const addNewCardButton = document.querySelector(
-  ".profile__add-button__new_item"
-);
+const addNewCardButton = document.querySelector(".profile__add-button");
 const addCardModal = document.querySelector("#add-card-modal");
 const addCardModalCloseButton = addCardModal.querySelector("#card-close-modal");
 const addCardModalSaveButton = addCardModal.querySelector(".modal__button");
