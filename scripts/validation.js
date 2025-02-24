@@ -40,7 +40,7 @@ function toggleButtonState(inputEls, submitButton, options) {
   if (hasInvalidInput(inputEls)) {
     disableButton(submitButton, options);
   } else {
-    enableButton(submitButton);
+    enableButton(submitButton, options);
   }
 }
 

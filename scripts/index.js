@@ -135,6 +135,7 @@ addNewCardButton.addEventListener("click", () => {
 addCardModalCloseButton.addEventListener("click", () =>
   closePopup(addCardModal)
 );
+
 function handleCardFormSubmit(e) {
   e.preventDefault();
   renderCard(
