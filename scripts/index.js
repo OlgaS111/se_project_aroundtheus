@@ -34,7 +34,7 @@ const profileTitleInput = document.querySelector("#profile-title-input");
 const profileDescriptionInput = document.querySelector(
   "#profile-description-input"
 );
-const profileEditForm = profileEditModal.querySelector(".modal__form");
+const profileEditForm = document.forms["profile-edit-form"];
 const cardListEl = document.querySelector(".cards__list");
 const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
@@ -61,8 +61,7 @@ function closePopupOnEsc(e) {
 
 function handleOverlayClick(e) {
   if (e.target.classList.contains("modal")) {
-    const currentlyOpenedPopup = document.querySelector(".modal_opened");
-    closePopup(currentlyOpenedPopup);
+    closePopup(e.target);
   }
 }
 

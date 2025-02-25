@@ -80,12 +80,13 @@
 
 .modal__input_type_error {
   border-bottom: 1px solid #ff0000;
-  margin-bottom: 13px;
+  margin-bottom: 5px;
 }
 
-.popup__error_visible {
+.modal__error_visible {
   margin-bottom: 13px;
   color: #ff0000;
+  font-size: 12px;
 }
 
 .modal__button {
@@ -123,12 +124,13 @@
   margin-bottom: 0;
 }
 
+.modal__image {
+  width: 100%;
+}
+
 @media screen and (max-width: 620px) {
   .modal__container {
     padding: 25px 22px 25px;
-  }
-  .modal__image {
-    width: 100%;
   }
   .modal__form {
     width: 238px;
