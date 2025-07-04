@@ -115,6 +115,7 @@ function handleCardFormSubmit(e) {
   );
   closePopup(addCardModal);
   addCardForm.reset();
+  addCardFormValidator.resetValidation();
 }
 
 const renderCard = (cardData, cardListEl) => {
